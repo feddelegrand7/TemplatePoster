@@ -1,0 +1,89 @@
+---
+title: "My Poster"
+output: 
+  html_document:
+    css: "styles.css"
+  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Name: Mohamed El Fodil Ihaddaden
+
+### Affiliation: ENSSEA
+
+
+
+<!-- DO NOT REMOVE THIS LINE ------------>
+:::: {.flex}
+<!-- DO NOT REMOVE THIS LINE ------------>
+
+
+
+
+# Introduction 
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos alias facere inventore nisi repellat ratione nesciunt. Odio exercitationem officia vitae a dolor laborum quibusdam alias ab in autem, quaerat dolore.
+
+$$ x^2 / log(y) + x^3 $$
+
+# Methodology 
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos alias facere inventore nisi repellat ratione nesciunt. Odio exercitationem officia vitae a dolor laborum quibusdam alias ab in autem, quaerat dolore.
+
+
+```{r}
+
+library(ggplot2)
+
+ggplot(mpg, aes(hwy, cty)) +
+  geom_point()
+
+```
+
+
+# Results 
+
+
+```{r, echo=FALSE}
+
+knitr::kable(head(chickwts))
+
+```
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos alias facere inventore nisi repellat ratione nesciunt. Odio exercitationem officia vitae a dolor laborum quibusdam alias ab in autem, quaerat dolore.
+
+
+
+
+
+# Discussion 
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos alias facere inventore nisi repellat ratione nesciunt. Odio exercitationem officia vitae a dolor laborum quibusdam alias ab in autem, quaerat dolore.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- DO NOT REMOVE THIS LINE -->
+::::
+<!-- DO NOT REMOVE THIS LINE -->
+
